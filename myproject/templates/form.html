@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<link href='https://fonts.googleapis.com/css?family=Rosario:400' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<title>{{.Title}}</title>
+</head>
+<body>
+
+<nav>
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a class="active" href="form">Contact Us</a></li>
+  <li><a href="duets">Duets</a></li>
+</ul>
+</nav>
+<div class = "bg">
+<center>
+<div class="mainbody">
+<h1>Contact Us</h1>
+
+<form method="POST">
+    <label>Name:</label><br />
+    <input type="text" name="name"><br />
+    <label>Email:</label><br />
+    <input type="text" name="email"><br />
+    <label>Subject:</label><br />
+    <input type="text" name="subject"><br />
+    <label>Message:</label><br />
+    <textarea name="message"></textarea><br />
+    <input type="submit">
+</form>
+</div>
+</center>
+</div>
+</body>
+</html>
